@@ -1,0 +1,22 @@
+{
+  "name": "hapijs-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/nodemon/bin/nodemon.js app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.11",
+    "hapi": "^16.4.3",
+    "inert": "^4.2.0",
+    "mongoose": "^5.0.5",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
